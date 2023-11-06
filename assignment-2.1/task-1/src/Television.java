@@ -1,6 +1,10 @@
 public class Television {
-    private boolean onStatus = false;
-    private int channel = 1;
+    private boolean onStatus;
+    private int channel;
+
+    public Television() {
+        onStatus = true;
+    }
 
     public boolean isOn() {
         return onStatus;
