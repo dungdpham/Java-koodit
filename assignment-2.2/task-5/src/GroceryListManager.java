@@ -1,8 +1,31 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.ArrayList;
+
 public class GroceryListManager {
     private HashMap<String, HashMap<String, String>> groceryList = new HashMap<>();
     private HashMap<String, String> itemDetails;
+    private ArrayList<ShoppingList> shoppingLists = new ArrayList<>();
+
+    public void createShoppingList(String listName) {
+        ShoppingList shoppingList = new ShoppingList(listName);
+        shoppingLists.add(shoppingList);
+    }
+
+    public void showLists() {
+        for (ShoppingList list : shoppingLists) {
+            System.out.println(list.getListName());
+        }
+    }
+
+    public ShoppingList getList(String listName) {
+        for (ShoppingList list : shoppingLists) {
+            if (listName.equals(list.getListName())) {
+                return list;
+            }
+        }
+        return null;
+    }
 
     public void addItemWithCost(String item, double cost) {
 //        HashMap<String, String> itemDetails;
@@ -111,5 +134,17 @@ public class GroceryListManager {
 
         groceryList.updateQuantity("Apple", 59);
         groceryList.displayAvailableItems();
+
+        GroceryListManager listManager = new GroceryListManager();
+        listManager.createShoppingList("Backyard BBQ");
+        listManager.createShoppingList("Picnic");
+
+        listManager.showLists();
+
+        ShoppingList BBQList = listManager.getList("Backyard BBQ");
+        BBQList.addItem("Steak", 30, "Meat", 5);
+        BBQList.addItem("Beer", 5, "Beverage", 24);
+        System.out.println("\nList: " + BBQList.getListName() + ": ");
+        BBQList.displayList();
     }
 }
