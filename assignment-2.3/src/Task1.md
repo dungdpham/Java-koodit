@@ -1,0 +1,9 @@
+Simulation can be applied to various situation of everyday lives to analyze and model complex scenarios, for example: in planning traffics and urban developments, simulating the readiness and responsiveness of healthcare systems (in case of emergencies), consumer markets and customer behaviors in different economic situations, etc.
+
+Simulation approach can be more appropriate than real-world experiments due to the variablity of the situations that need to be study: real-world systems can include uncertainty and unpredictedness which are difficult to be fully replicated in physical experiments. Simulation can apply probability statistics as well as randomness to cover most of the possibilities a situation can proceed in real life. Variablity and complexity of operation systems can also make it difficult to examine and comprehend the interconnectedness between different components of the systems and how they are dependent on each other. If done correctly, simulation can model how change in one component affects system as a whole.
+
+Simulation is time saving for scenarios that require to be observed over extended period of time. Simulation can be sped up while maintaining the integrity of the system simulated. This in turns results in relatively lower costs compared to conducting real experiment which requires significant financial, time and human resource investment to plan and carry out.
+
+Experimental conditions of simulation can be set and controlled rather precisely, which ensures the validity of the outcome as well as the safeness in case the simulated experiment involves high risk or ethical concern if carried out in real life.
+
+Sustainable aspects such as environmental, social and economic impacts or long-term consequences of different policies and strategy can be observed and studied thoroughly through simulation to help lawmakers make informed and correct decision.
