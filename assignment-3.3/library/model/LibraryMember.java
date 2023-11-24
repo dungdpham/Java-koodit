@@ -30,6 +30,11 @@ public class LibraryMember {
         return borrowedBooks;
     }
 
+    @Override
+    public String toString() {
+        return "[ID: " + getMemberId() + "] " + getName() + ": borrowed " + getBorrowedBooks();
+    }
+
     public void addReservedBook(Book book) {
         reservedBooks.add(book);
     }

@@ -16,13 +16,15 @@ public class Main {
         library.addMember(member1); library.addMember(member2);
 
         library.borrowBook(member1, book1);
-        System.out.println(member1.getBorrowedBooks());
+        System.out.println(member1);
 
         library.borrowBook(member2, book2);
         library.returnBook(member1, book1);
-        System.out.println(member1.getBorrowedBooks());
-        System.out.println(member2.getBorrowedBooks());
+        library.borrowBook(member2, book1);
+        System.out.println(member1);
+        System.out.println(member2);
         library.returnBook(member2, book2);
+        library.returnBook(member2, book1);
 
         System.out.println();
         library.reserveBook(member1, book2);
