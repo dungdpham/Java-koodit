@@ -43,7 +43,7 @@ public class NumberSumParallel {
 
         int cores = Runtime.getRuntime().availableProcessors();
         System.out.print("1 thread: "); execute(numbers, 1);
-        System.out.print("4 threads: "); execute(numbers, 2);
+        System.out.print("2 threads: "); execute(numbers, 2);
         System.out.print(cores + " threads: "); execute(numbers, cores);
     }
 }
