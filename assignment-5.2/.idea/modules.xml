@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayListThreadSafe/ArrayListThreadSafe.iml" filepath="$PROJECT_DIR$/ArrayListThreadSafe/ArrayListThreadSafe.iml" />
       <module fileurl="file://$PROJECT_DIR$/TicketReservation/TicketReservation.iml" filepath="$PROJECT_DIR$/TicketReservation/TicketReservation.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignment-5.2.iml" filepath="$PROJECT_DIR$/assignment-5.2.iml" />
     </modules>

@@ -1,9 +1,9 @@
 import java.util.Random;
 
 public class Main {
-    private static final int TICKET_AMOUNT = 15;
+    private static final int TICKET_AMOUNT = 30;
     private static final int RESERVE_MAX = 2;
-    private static final int CUSTOMER_AMOUNT = 15;
+    private static final int CUSTOMER_AMOUNT = 50;
 
     public static void main(String[] args) {
         Ticket concert = new Ticket(TICKET_AMOUNT);
